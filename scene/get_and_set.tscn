@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmb8g7sfxordv"]
+
+[ext_resource type="Script" path="res://scene/get_and_set.gd" id="1_o1iw4"]
+
+[node name="GetAndSet" type="Node"]
+script = ExtResource("1_o1iw4")
+
+[connection signal="health_changed" from="." to="." method="_on_health_changed"]

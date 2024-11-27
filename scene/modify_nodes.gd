@@ -14,6 +14,7 @@ func _ready() -> void:
 	# print absolute path 
 	print(weapon.get_path()) 
 	
+	# it is a Sprite2D and also a Node type
 	if armor is Sprite2D: 
 		print('it is a sprite')
 	if armor is Node: 
