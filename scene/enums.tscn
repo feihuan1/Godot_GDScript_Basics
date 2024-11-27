@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxgo3e12l8pkw"]
+
+[ext_resource type="Script" path="res://scene/enums.gd" id="1_0aeso"]
+
+[node name="EnumsAndMatch" type="Node"]
+script = ExtResource("1_0aeso")
